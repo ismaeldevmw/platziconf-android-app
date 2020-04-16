@@ -12,7 +12,7 @@ import com.platzi.conf.R
 import com.platzi.conf.model.Speaker
 import kotlin.collections.ArrayList
 
-class SpeakersAdapter(val speakersListener: SpeakersListener) : RecyclerView.Adapter<SpeakersAdapter.ViewHolder>() {
+class SpeakerAdapter(val speakersListener: SpeakerListener) : RecyclerView.Adapter<SpeakerAdapter.ViewHolder>() {
     var listSpeaker = ArrayList<Speaker>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ViewHolder(LayoutInflater
@@ -21,7 +21,7 @@ class SpeakersAdapter(val speakersListener: SpeakersListener) : RecyclerView.Ada
 
     override fun getItemCount() = listSpeaker.size
 
-    override fun onBindViewHolder(holder: SpeakersAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: SpeakerAdapter.ViewHolder, position: Int) {
         val speaker = listSpeaker[position] as Speaker
 
         Glide.with(holder.itemView.context)
