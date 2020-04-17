@@ -38,7 +38,7 @@
                         android:background="@color/colorPrimary"
                         android:alpha="0.5"/>
                     <TextView
-                        android:id="@+id/itemScheduleHour"
+                        android:id="@+id/tvItemDetailConferenceTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Titulo de la conferencia"
@@ -59,7 +59,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/shape_paragraph">
                         <TextView
-                            android:id="@+id/tvDetailConferenceHour"
+                            android:id="@+id/tvItemDetailConferenceHour"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="00:00"
