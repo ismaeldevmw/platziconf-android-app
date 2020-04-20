@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/cardCornerRadius"
                 app:cardElevation="4dp"
-                android:layout_margin="15dp">
+                android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -57,7 +57,8 @@
                         android:textColor="@color/colorPrimary"
                         android:layout_marginRight="@dimen/marginHomeSubtitle"
                         android:layout_marginLeft="@dimen/marginHomeSubtitle"
-                        android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+                        android:layout_marginTop="@dimen/marginHomeSubtitle"
+                        android:layout_marginBottom="10dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -66,7 +67,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/cardCornerRadius"
                 app:cardElevation="4dp"
-                android:layout_margin="15dp">
+                android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -91,7 +92,8 @@
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_marginRight="@dimen/marginHomeSubtitle"
                         android:layout_marginLeft="@dimen/marginHomeSubtitle"
-                        android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+                        android:layout_marginTop="@dimen/marginHomeSubtitle"
+                        android:layout_marginBottom="10dp"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -105,7 +107,8 @@
                         android:textColor="@color/colorPrimary"
                         android:layout_marginRight="@dimen/marginHomeSubtitle"
                         android:layout_marginLeft="@dimen/marginHomeSubtitle"
-                        android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+                        android:layout_marginTop="@dimen/marginHomeSubtitle"
+                        android:layout_marginBottom="10dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -114,7 +117,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/cardCornerRadius"
                 app:cardElevation="4dp"
-                android:layout_margin="15dp">
+                android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -153,7 +156,8 @@
                         android:textColor="@color/colorPrimary"
                         android:layout_marginRight="@dimen/marginHomeSubtitle"
                         android:layout_marginLeft="@dimen/marginHomeSubtitle"
-                        android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+                        android:layout_marginTop="@dimen/marginHomeSubtitle"
+                        android:layout_marginBottom="10dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 

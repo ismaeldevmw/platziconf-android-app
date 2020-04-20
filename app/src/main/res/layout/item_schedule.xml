@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@drawable/shape_paragraph">
+        android:layout_margin="5dp">
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -69,5 +69,9 @@
                 android:background="@drawable/shape_topic"/>
         </LinearLayout>
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
 
 </LinearLayout>
